@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Full moon">
+  <defs>
+    <radialGradient id="surface" cx="34%" cy="29%" r="75%"><stop offset="0" stop-color="#f5f2e9"/><stop offset=".48" stop-color="#d8d6d0"/><stop offset=".82" stop-color="#a9aaa7"/><stop offset="1" stop-color="#777b7b"/></radialGradient>
+    <radialGradient id="shade" cx="30%" cy="27%" r="78%"><stop offset=".52" stop-color="#101719" stop-opacity="0"/><stop offset="1" stop-color="#101719" stop-opacity=".48"/></radialGradient>
+    <filter id="crater" x="-40%" y="-40%" width="180%" height="180%"><feGaussianBlur stdDeviation="2.2"/></filter>
+    <clipPath id="disc"><circle cx="256" cy="256" r="250"/></clipPath>
+  </defs>
+  <g clip-path="url(#disc)">
+    <circle cx="256" cy="256" r="250" fill="url(#surface)"/>
+    <g fill="#777b79" opacity=".2" filter="url(#crater)"><circle cx="143" cy="113" r="37"/><circle cx="286" cy="91" r="24"/><circle cx="372" cy="168" r="42"/><circle cx="217" cy="209" r="57"/><circle cx="108" cy="279" r="31"/><circle cx="328" cy="294" r="51"/><circle cx="180" cy="390" r="45"/><circle cx="393" cy="398" r="29"/><circle cx="262" cy="458" r="23"/></g>
+    <g fill="none" stroke="#f7f5ed" stroke-opacity=".28" stroke-width="7"><circle cx="143" cy="113" r="33"/><circle cx="286" cy="91" r="20"/><circle cx="372" cy="168" r="37"/><circle cx="217" cy="209" r="51"/><circle cx="108" cy="279" r="27"/><circle cx="328" cy="294" r="46"/><circle cx="180" cy="390" r="40"/><circle cx="393" cy="398" r="24"/><circle cx="262" cy="458" r="19"/></g>
+    <g fill="#646967" opacity=".16"><circle cx="157" cy="126" r="14"/><circle cx="280" cy="197" r="21"/><circle cx="350" cy="288" r="17"/><circle cx="167" cy="379" r="19"/><circle cx="104" cy="244" r="11"/><circle cx="394" cy="399" r="10"/></g>
+    <circle cx="256" cy="256" r="250" fill="url(#shade)"/>
+  </g>
+</svg>
