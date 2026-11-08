@@ -17,4 +17,5 @@ const products=[
 
 - Newest product goes **last** — the last two are shown under "OUR NEWEST PRODUCTS".
 - `sizes` and `colors` are optional; without them the site uses S/M/L/XL and Black/White/Olive.
+- `imgs:['a.jpg','b.jpg',...]` is optional: extra photos shown as thumbnails in the product popup. The main `img` should be the first one (it is also the card photo).
 - An empty list (`const products=[]`) shows the "New collection coming soon" message.

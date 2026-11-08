@@ -15,6 +15,7 @@ const products=[
 
 - Newest product goes **last** — the last two are shown automatically under "OUR NEWEST PRODUCTS", and the last one becomes the hero photo.
 - `sizes` / `colors` are optional (defaults: S–XL, Black/White/Olive).
+- `imgs:['a.jpg','b.jpg',...]` is optional: a photo gallery inside the product popup (the first photo is also the card + hero image). Without it, the single `img` is used.
 - The list is currently empty, so the site shows a "New collection coming soon" panel with a WhatsApp button instead of an empty grid.
 
 ## Preview locally
